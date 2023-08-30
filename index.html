@@ -1,719 +1,397 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>complete responsive adventure & tour website design</title>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <!-- font awesome cdn link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <title>Agrotech</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-    <!-- custom css file link  -->
-    <link rel="stylesheet" href="css/style.css">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
 
 </head>
+
 <body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center">
+      <!--h1 class="logo me-auto"><a href="index.html">Agrotech</a></h1>
+      <----- Uncomment below if you prefer to use an image logo --->
+
+      <a href="index.html" class="logo me-auto"><img src="assets/img/agrotech.png" alt="bi-arrow-up-short" class="img-fluid"></a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#services">Dashboard</a></li>
+          <li><a class="nav-link   scrollto" href="#portfolio">Story</a></li>
+          <li><a class="nav-link scrollto" href="#report">Report</a></li>
+         
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+       
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
     
-<!-- header section starts  -->
-
-<header class="header">
-
-    <a href="#" class="logo"> <i class="fas fa-hiking"></i> travel. </a>
-
-    <nav class="navbar">
-        <div id="nav-close" class="fas fa-times"></div>
-        <a href="#home">home</a>
-        <a href="#about">about</a>
-        <a href="#shop">shop</a>
-        <a href="#packages">packages</a>
-        <a href="#reviews">reviews</a>
-        <a href="#blogs">blogs</a>
-    </nav>
-
-    <div class="icons">
-        <div id="menu-btn" class="fas fa-bars"></div>
-        <a href="#" class="fas fa-shopping-cart"></a>
-        <div id="search-btn" class="fas fa-search"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+          <h1>Welcome to agrotech analytics</h1>
+          <h2>Empowering Agriculture Through Data Insights</h2>
+          <div class="d-flex justify-content-center justify-content-lg-start">
+            <a href="#about" class="btn-get-started scrollto">Get Started</a>
+            <a href="https://youtu.be/GxX5E7tcTvw" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+        </div>
+      </div>
     </div>
 
-</header>
+  </section><!-- End Hero -->
 
-<!-- header section ends -->
+  <main id="main">
 
-<!-- search form  -->
+   
 
-<div class="search-form">
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
 
-    <div id="close-search" class="fas fa-times"></div>
-
-    <form action="">
-        <input type="search" name="" placeholder="search here..." id="search-box">
-        <label for="search-box" class="fas fa-search"></label>
-    </form>
-</div>
-
-<!-- home section starts  -->
-
-<section class="home" id="home">
-
-    <div class="swiper home-slider">
-
-        <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-                <div class="box" style="background: url(images/home-bg-1.jpg) no-repeat;">
-                    <div class="content">
-                        <span>never stop</span>
-                        <h3>exploring</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit unde ex molestias soluta consequatur saepe aliquam, excepturi delectus consequuntur minus!</p>
-                        <a href="#" class="btn">get started</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="swiper-slide">
-                <div class="box second" style="background: url(images/home-bg-2.jpg) no-repeat;">
-                    <div class="content">
-                        <span>make tour</span>
-                        <h3>amazing</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit unde ex molestias soluta consequatur saepe aliquam, excepturi delectus consequuntur minus!</p>
-                        <a href="#" class="btn">get started</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="swiper-slide">
-                <div class="box" style="background: url(images/home-bg-3.jpg) no-repeat;">
-                    <div class="content">
-                        <span>explore the</span>
-                        <h3>new world</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit unde ex molestias soluta consequatur saepe aliquam, excepturi delectus consequuntur minus!</p>
-                        <a href="#" class="btn">get started</a>
-                    </div>
-                </div>
-            </div>
-
+        <div class="section-title">
+          <h2>About Us</h2>
         </div>
 
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-
-    </div>
-
-</section>
-
-<!-- home section ends -->
-
-<!-- category section starts  -->
-
-<section class="category">
-
-    <h1 class="heading">adventure idea!</h1>
-
-    <div class="box-container">
-
-        <div class="box">
-            <img src="images/category-1.jpg" alt="">
-            <h3>bungee jump</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, id.</p>
-            <a href="#" class="btn">read more</a>
+        <div class="row content">
+          <div class="col-lg-6">
+            <p>
+              we believe that the future of agriculture lies in data-driven decision-making.
+               Our platform brings together advanced analytics and cutting-edge technology to provide farmers, agricultural businesses,
+               and stakeholders with actionable insights to optimize their operations and drive sustainable growth.
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i>"Cultivating Success Through Data Insights"</li>
+              <li><i class="ri-check-double-line"></i> "Harvesting Growth with Analytics Excellence"</li>
+              <li><i class="ri-check-double-line"></i> "Data-Driven Agriculture: Cultivating Efficiency, Harvesting Success"</li>
+            </ul>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <p>
+              Make your business shine online with a custom agrotech website designed just for you by a professional designer. 
+              Need ideas? We’ve collected some amazing examples of agriculture practice from our global community of farmers. 
+              Get inspired and start planning the perfect agriculture 
+            </p>
+            <a href="#" class="btn-learn-more">Learn More</a>
+          </div>
         </div>
 
-        <div class="box">
-            <img src="images/category-2.jpg" alt="">
-            <h3>zip lines</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, id.</p>
-            <a href="#" class="btn">read more</a>
-        </div>
+      </div>
+    </section><!-- End About Us Section -->
 
-        <div class="box">
-            <img src="images/category-3.jpg" alt="">
-            <h3>Canoeing</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, id.</p>
-            <a href="#" class="btn">read more</a>
-        </div>
+    <!-- ======= Why Us Section ======= -->
+    <section id="why-us" class="why-us">
+    <div class="section-bg">
+      <div class="container-fluid" data-aos="fade-up">
 
-        <div class="box">
-            <img src="images/category-4.jpg" alt="">
-            <h3>kayaking</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, id.</p>
-            <a href="#" class="btn">read more</a>
-        </div>
+        <div class="row">
 
-    </div>
+          <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
 
-</section>
-
-<!-- category section ends -->
-
-<!-- about section starts  -->
-
-<section class="about" id="about">
-
-    <div class="image">
-        <img src="images/about-img.jpg" alt="">
-    </div>
-
-    <div class="content">
-        <h3>memorable outdoor experiences</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque voluptates corrupti natus necessitatibus beatae voluptatibus, deserunt quo soluta minima libero laborum, corporis error esse vitae placeat blanditiis reiciendis vel? Minima.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dicta doloremque placeat porro, ipsam quia at beatae atque odit iste?</p>
-        <a href="#" class="btn">read more</a>
-    </div>
-
-</section>
-
-<!-- about section ends -->
-
-<!-- shop section starts  -->
-
-<section class="shop" id="shop">
-
-    <h1 class="heading">featured products</h1>
-
-    <div class="swiper product-slider">
-
-        <div class="swiper-wrapper">
-
-            <div class="swiper-slide slide">
-                <div class="image">
-                    <img src="images/product-1.jpg" alt="">
-                    <div class="icons">
-                        <a href="#" class="fas fa-shopping-cart"></a>
-                        <a href="#" class="fas fa-eye"></a>
-                        <a href="#" class="fas fa-share"></a>
-                    </div>
-                </div>
-                <div class="content">
-                    <h3>survival kits</h3>
-                    <div class="price"> $5.00 - $25.00 </div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                </div>
-            </div>
-
-            <div class="swiper-slide slide">
-                <div class="image">
-                    <img src="images/product-2.jpg" alt="">
-                    <div class="icons">
-                        <a href="#" class="fas fa-shopping-cart"></a>
-                        <a href="#" class="fas fa-eye"></a>
-                        <a href="#" class="fas fa-share"></a>
-                    </div>
-                </div>
-                <div class="content">
-                    <h3>survival kits</h3>
-                    <div class="price"> $5.00 - $25.00 </div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                </div>
-            </div>
-
-            <div class="swiper-slide slide">
-                <div class="image">
-                    <img src="images/product-3.jpg" alt="">
-                    <div class="icons">
-                        <a href="#" class="fas fa-shopping-cart"></a>
-                        <a href="#" class="fas fa-eye"></a>
-                        <a href="#" class="fas fa-share"></a>
-                    </div>
-                </div>
-                <div class="content">
-                    <h3>survival kits</h3>
-                    <div class="price"> $5.00 - $25.00 </div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                </div>
-            </div>
-
-            <div class="swiper-slide slide">
-                <div class="image">
-                    <img src="images/product-4.jpg" alt="">
-                    <div class="icons">
-                        <a href="#" class="fas fa-shopping-cart"></a>
-                        <a href="#" class="fas fa-eye"></a>
-                        <a href="#" class="fas fa-share"></a>
-                    </div>
-                </div>
-                <div class="content">
-                    <h3>survival kits</h3>
-                    <div class="price"> $5.00 - $25.00 </div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                </div>
-            </div>
-
-            <div class="swiper-slide slide">
-                <div class="image">
-                    <img src="images/product-5.jpg" alt="">
-                    <div class="icons">
-                        <a href="#" class="fas fa-shopping-cart"></a>
-                        <a href="#" class="fas fa-eye"></a>
-                        <a href="#" class="fas fa-share"></a>
-                    </div>
-                </div>
-                <div class="content">
-                    <h3>survival kits</h3>
-                    <div class="price"> $5.00 - $25.00 </div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                </div>
-            </div>
-
-            <div class="swiper-slide slide">
-                <div class="image">
-                    <img src="images/product-6.jpg" alt="">
-                    <div class="icons">
-                        <a href="#" class="fas fa-shopping-cart"></a>
-                        <a href="#" class="fas fa-eye"></a>
-                        <a href="#" class="fas fa-share"></a>
-                    </div>
-                </div>
-                <div class="content">
-                    <h3>survival kits</h3>
-                    <div class="price"> $5.00 - $25.00 </div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-
-    </div>
-
-</section>
-
-<!-- shop section ends -->
-
-<!-- packages section starts  -->
-
-<section class="packages" id="packages">
-
-    <h1 class="heading">popular packages</h1>
-
-    <div class="box-container">
-
-        <div class="box">
-            <div class="image">
-                <img src="images/img-1.jpg" alt="">
-            </div>
             <div class="content">
-                <h3>featured tour package</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, eos.</p>
-                <div class="price">$250 - $450</div>
-                <a href="#" class="btn">explore now</a>
+              <h3>Empowering Farmers with Actionable Agriculture Analytics<strong>"Your Agriculture Analytics Partner"</strong></h3>
+              <p>
+                we believe that knowledge is the seed that grows into progress. Explore our content, cultivate your expertise, and reap the rewards of a well-informed agricultural journey.
+              </p>
             </div>
+
+            <div class="accordion-list">
+              <ul>
+                <li>
+                  <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span> No-Tillage<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
+                    <p>
+                      Avoids plowing and tilling to preserve soil structure and prevent erosion.
+                      Mulching with straw or cover crops helps retain moisture and improve soil health.
+                    </p>
+                  </div>
+                </li>
+
+                <li>
+                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"><span>02</span>  No Chemical Inputs<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
+                    <p>
+                      Rejects synthetic fertilizers, pesticides, and herbicides.
+                      Advocates for the use of natural methods to enhance soil fertility and manage pests.
+                    </p>
+                  </div>
+                </li>
+
+                <li>
+                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span>03</span> Agricultural Technology and Innovation<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
+                    <p>
+                      Stay updated on the latest advancements in agricultural technology and innovation.
+                      Learn how precision agriculture, data analytics, drones, and smart sensors are revolutionizing farming.
+                      Discover how technology can enhance efficiency, reduce resource usage, and boost yields.
+                    </p>
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+
+          </div>
+
+          <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" style='background-image: url("assets/img/why-us.png");' data-aos="zoom-in" data-aos-delay="150">&nbsp;</div>
+        </div>
+      </div>
+    </div>
+    </section><!-- End Why Us Section -->
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+    <div class="dashboard-bg"> 
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Dashboard</h2>
+          <p class="description">A dashboard is a way of displaying various types of visual data in one place. Usually, a dashboard is intended to convey different, but related information in an easy-to-digest form.</p>
+        </div>
+        <div>
+          <iframe src="https://us1.ca.analytics.ibm.com/bi/?perspective=dashboard&amp;pathRef=.my_folders%2Fagriculture%2FNew%2Bdashboard&amp;closeWindowOnLastView=true&amp;ui_appbar=false&amp;ui_navbar=false&amp;shareMode=embedded&amp;action=view&amp;mode=dashboard&amp;subView=model00000189f5037e31_00000003" width="1350" height="750" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen=""></iframe>
+        </div>
+      </div>
+      </div>
+    </div>   
+    </section><!-- End Services Section -->
+
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-start">
+            <h3>Call To Action</h3>
+            <p>we are hear to help you <br>Growing Together: Join Our Farming Community!</p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="#">Call To Action</a>
+          </div>
         </div>
 
-        <div class="box">
-            <div class="image">
-                <img src="images/img-2.jpg" alt="">
-            </div>
-            <div class="content">
-                <h3>featured tour package</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, eos.</p>
-                <div class="price">$250 - $450</div>
-                <a href="#" class="btn">explore now</a>
-            </div>
+      </div>
+    </section><!-- End Cta Section -->
+
+    <!-- ======= story Section ======= -->
+    <section id="portfolio" class="portfolio">
+    <div class="story-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2 class="story-heading">story</h2>
+          <p class="description">A narrative insight  on field with some of relation with yields and production with state for clear understanding on agriculture</p>
+        </div>
+        <div>
+          <iframe src="https://us1.ca.analytics.ibm.com/bi/?perspective=story&amp;pathRef=.my_folders%2Fagriculture%2FNew%2Bstory&amp;closeWindowOnLastView=true&amp;ui_appbar=false&amp;ui_navbar=false&amp;shareMode=embedded&amp;action=view&amp;sceneId=-2&amp;sceneTime=0" width="1350" height="550" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen=""></iframe>
+        </div>
+      </div>
+    </div>    
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Report Section ======= -->
+    <section id="report" class="team ">
+    <div class="report-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Report</h2>
+          <p class="description">A report is a document that presents information in an organized format for a specific audience and purpose. Although summaries of reports may be delivered orally, complete reports are almost always in the form of written documents or Visualized format.</p>
+        </div>
+        <div>
+          <iframe src="https://us1.ca.analytics.ibm.com/bi/?pathRef=.my_folders%2Fagriculture%2FNew%2Breport&amp;closeWindowOnLastView=true&amp;ui_appbar=false&amp;ui_navbar=false&amp;shareMode=embedded&amp;action=run&amp;format=HTML&amp;prompt=false" width="1350" height="750" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen=""></iframe>
+        </div>
+      </div>
+    </div>    
+    </section><!-- End Team Section -->
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact contact_background">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p class="description"> Be in touch with us. If u have any quries contact us your farm is our farm. Happy Farming!!! </p>
         </div>
 
-        <div class="box">
-            <div class="image">
-                <img src="images/img-3.jpg" alt="">
+        <div class="row">
+
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>A108 theran nagar
+                  chennai,  600001
+                  Tamil Nadu</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>agrotech@gmail.com
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>+91 8945786431 </p>
+              </div>
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.469827325403!2d80.17308997679632!3d13.069383179890117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5261504145fe7d%3A0x58810f43c3a748ae!2sDr.%20M.G.R.%20Educational%20And%20Research%20Institute%20university!5e0!3m2!1sen!2sus!4v1692686378703!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-            <div class="content">
-                <h3>featured tour package</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, eos.</p>
-                <div class="price">$250 - $450</div>
-                <a href="#" class="btn">explore now</a>
-            </div>
+
+          </div>
+
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Your Name</label>
+                  <input type="text" name="name" class="form-control" id="name" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="name">Subject</label>
+                <input type="text" class="form-control" name="subject" id="subject" required>
+              </div>
+              <div class="form-group">
+                <label for="name">Message</label>
+                <textarea class="form-control" name="message" rows="10" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+
         </div>
 
-        <div class="box">
-            <div class="image">
-                <img src="images/img-4.jpg" alt="">
-            </div>
-            <div class="content">
-                <h3>featured tour package</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, eos.</p>
-                <div class="price">$250 - $450</div>
-                <a href="#" class="btn">explore now</a>
-            </div>
-        </div>
+      </div>
+    </section><!-- End Contact Section -->
 
-        <div class="box">
-            <div class="image">
-                <img src="images/img-5.jpg" alt="">
-            </div>
-            <div class="content">
-                <h3>featured tour package</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, eos.</p>
-                <div class="price">$250 - $450</div>
-                <a href="#" class="btn">explore now</a>
-            </div>
-        </div>
+  </main><!-- End #main -->
 
-        <div class="box">
-            <div class="image">
-                <img src="images/img-6.jpg" alt="">
-            </div>
-            <div class="content">
-                <h3>featured tour package</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, eos.</p>
-                <div class="price">$250 - $450</div>
-                <a href="#" class="btn">explore now</a>
-            </div>
-        </div>
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
 
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>Agrotech</h3>
+            <p>
+              A108 theran nagar<br>
+              chennai,  600001<br>
+              Tamil Nadu <br>
+              <strong>Phone:</strong> +91 8945786431<br>
+              <strong>Email:</strong> agrotech@gmail.com<br>
+            </p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Crop analysis</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">weather forecasteing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">soil analysis</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Farm management</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Prediction</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Social Networks</h4>
+            <p>Follow us on</p>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
     </div>
 
-</section>
-
-<!-- packages section ends -->
-
-<!-- reviews section starts  -->
-
-<section class="reviews" id="reviews">
-
-    <h1 class="heading">client's reviews</h1>
-
-    <div class="swiper review-slider">
-
-        <div class="swiper-wrapper">
-
-            <div class="swiper-slide slide">
-                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quidem laborum pariatur alias, culpa illum quaerat, aliquid laboriosam voluptatem nisi repellat obcaecati, adipisci esse ab delectus dolorum ut recusandae ipsam?</p>
-                <div class="user">
-                    <img src="images/pic-1.png" alt="">
-                    <div class="info">
-                        <h3>saravana</h3>
-                        <span>Mayailaduthurai M L A</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="swiper-slide slide">
-                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quidem laborum pariatur alias, culpa illum quaerat, aliquid laboriosam voluptatem nisi repellat obcaecati, adipisci esse ab delectus dolorum ut recusandae ipsam?</p>
-                <div class="user">
-                    <img src="images/pic-2.png" alt="">
-                    <div class="info">
-                        <h3>hari selvam</h3>
-                        <span>koyambedu</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="swiper-slide slide">
-                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quidem laborum pariatur alias, culpa illum quaerat, aliquid laboriosam voluptatem nisi repellat obcaecati, adipisci esse ab delectus dolorum ut recusandae ipsam?</p>
-                <div class="user">
-                    <img src="images/pic-3.png" alt="">
-                    <div class="info">
-                        <h3>yeswanth roy</h3>
-                        <span>kadapa</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="swiper-slide slide">
-                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quidem laborum pariatur alias, culpa illum quaerat, aliquid laboriosam voluptatem nisi repellat obcaecati, adipisci esse ab delectus dolorum ut recusandae ipsam?</p>
-                <div class="user">
-                    <img src="images/pic-4.png" alt="">
-                    <div class="info">
-                        <h3>Gowri</h3>
-                        <span>kerala</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="swiper-slide slide">
-                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quidem laborum pariatur alias, culpa illum quaerat, aliquid laboriosam voluptatem nisi repellat obcaecati, adipisci esse ab delectus dolorum ut recusandae ipsam?</p>
-                <div class="user">
-                    <img src="images/pic-5.png" alt="">
-                    <div class="info">
-                        <h3>Infanto</h3>
-                        <span>chennai</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="swiper-slide slide">
-                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quidem laborum pariatur alias, culpa illum quaerat, aliquid laboriosam voluptatem nisi repellat obcaecati, adipisci esse ab delectus dolorum ut recusandae ipsam?</p>
-                <div class="user">
-                    <img src="images/pic-6.png" alt="">
-                    <div class="info">
-                        <h3>john deo</h3>
-                        <span>designer</span>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
+    <div class="container footer-bottom clearfix">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Agrotech</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/ -->
+        Designed by <a>Cyber Warrior</a>
+      </div>
     </div>
+  </footer><!-- End Footer -->
 
-</section>
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-<!-- reviews section ends -->
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
 
-<!-- services section starts  -->
-
-<section class="services">
-
-    <h1 class="heading"> what we offer </h1>
-
-    <div class="box-container">
-
-        <div class="box">
-            <img src="images/serv-1.png" alt="">
-            <h3>complete guide</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus, nihil?</p>
-            <a href="#" class="btn">read more</a>
-        </div>
-
-        <div class="box">
-            <img src="images/serv-2.png" alt="">
-            <h3>custom packages</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus, nihil?</p>
-            <a href="#" class="btn">read more</a>
-        </div>
-
-        <div class="box">
-            <img src="images/serv-3.png" alt="">
-            <h3>family trips</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus, nihil?</p>
-            <a href="#" class="btn">read more</a>
-        </div>
-
-        <div class="box">
-            <img src="images/serv-4.png" alt="">
-            <h3>train guides</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus, nihil?</p>
-            <a href="#" class="btn">read more</a>
-        </div>
-
-        <div class="box">
-            <img src="images/serv-5.png" alt="">
-            <h3>adventure trail</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus, nihil?</p>
-            <a href="#" class="btn">read more</a>
-        </div>
-
-        <div class="box">
-            <img src="images/serv-6.png" alt="">
-            <h3>various adventures</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus, nihil?</p>
-            <a href="#" class="btn">read more</a>
-        </div>
-        
-    </div>
-
-</section>
-
-<!-- services section ends -->
-
-<!-- blogs section starts  -->
-
-<section class="blogs" id="blogs">
-
-    <h1 class="heading"> our daily posts </h1>
-
-    <div class="swiper blogs-slider">
-
-        <div class="swiper-wrapper">
-
-            <div class="swiper-slide slide">
-                <img src="images/img-1.jpg" alt="">
-                <div class="icons">
-                    <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2021 </a>
-                    <a href="#"> <i class="fas fa-user"></i> by admin </a>
-                </div>
-                <h3>blog title goes here.</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit, deserunt.</p>
-                <a href="#" class="btn">read more</a>
-            </div>
-
-            <div class="swiper-slide slide">
-                <img src="images/img-2.jpg" alt="">
-                <div class="icons">
-                    <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2021 </a>
-                    <a href="#"> <i class="fas fa-user"></i> by admin </a>
-                </div>
-                <h3>blog title goes here.</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit, deserunt.</p>
-                <a href="#" class="btn">read more</a>
-            </div>
-
-            <div class="swiper-slide slide">
-                <img src="images/img-3.jpg" alt="">
-                <div class="icons">
-                    <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2021 </a>
-                    <a href="#"> <i class="fas fa-user"></i> by admin </a>
-                </div>
-                <h3>blog title goes here.</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit, deserunt.</p>
-                <a href="#" class="btn">read more</a>
-            </div>
-
-            <div class="swiper-slide slide">
-                <img src="images/img-4.jpg" alt="">
-                <div class="icons">
-                    <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2021 </a>
-                    <a href="#"> <i class="fas fa-user"></i> by admin </a>
-                </div>
-                <h3>blog title goes here.</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit, deserunt.</p>
-                <a href="#" class="btn">read more</a>
-            </div>
-
-            <div class="swiper-slide slide">
-                <img src="images/img-5.jpg" alt="">
-                <div class="icons">
-                    <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2021 </a>
-                    <a href="#"> <i class="fas fa-user"></i> by admin </a>
-                </div>
-                <h3>blog title goes here.</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit, deserunt.</p>
-                <a href="#" class="btn">read more</a>
-            </div>
-
-            <div class="swiper-slide slide">
-                <img src="images/img-6.jpg" alt="">
-                <div class="icons">
-                    <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2021 </a>
-                    <a href="#"> <i class="fas fa-user"></i> by admin </a>
-                </div>
-                <h3>blog title goes here.</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit, deserunt.</p>
-                <a href="#" class="btn">read more</a>
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-<!-- blogs section ends -->
-
-<!-- newsletter section  -->
-
-<section class="newsletter">
-
-    <div class="content">
-        <h1 class="heading">subscirbe now</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam ipsam repellat nostrum esse officiis unde quisquam corporis doloremque adipisci similique!</p>
-        <form action="">
-            <input type="email" name="" placeholder="enter your email" id="" class="email">
-            <input type="submit" value="subscirbe" class="btn">
-        </form>
-    </div>
-
-</section>
-
-<section class="clients">
-
-    <div class="swiper clients-slider">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide silde"><img src="images/client-logo-1.png" alt=""></div>
-            <div class="swiper-slide silde"><img src="images/client-logo-2.png" alt=""></div>
-            <div class="swiper-slide silde"><img src="images/client-logo-3.png" alt=""></div>
-            <div class="swiper-slide silde"><img src="images/client-logo-4.png" alt=""></div>
-        </div>
-    </div>
-
-</section>
-
-<!-- footer section starts  -->
-
-<section class="footer">
-
-    <div class="box-container">
-
-        <div class="box">
-            <h3>quick links</h3>
-            <a href="#home">home</a>
-            <a href="#about">about</a>
-            <a href="#shop">shop</a>
-            <a href="#packages">packages</a>
-            <a href="#reviews">reviews</a>
-            <a href="#blogs">blogs</a>
-        </div>
-
-        <div class="box">
-            <h3>extra links</h3>
-            <a href="#">my account</a>
-            <a href="#">my order</a>
-            <a href="#">my wishlist</a>
-            <a href="#">ask questions</a>
-            <a href="#">terms of use</a>
-            <a href="#">privacy policy</a>
-        </div>
-
-        <div class="box">
-            <h3>contact info</h3>
-            <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
-            <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
-            <a href="#"> <i class="fas fa-envelope"></i> travel@gmail.com </a>
-            <a href="#"> <i class="fas fa-map"></i></a>
-        </div>
-
-        <div class="box">
-            <h3>follow us</h3>
-            <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
-            <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
-            <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
-            <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
-            <a href="#"> <i class="fab fa-github"></i> github </a>
-        </div>
-
-    </div>
-
-    <div class="credit">created by <span>Mr.Harsenth</span> | all rights reserved!</div>
-
-</section>
-
-<!-- footer section ends -->
-
-<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
-
-<!-- custom js file link  -->
-<script src="js/script.js"></script>
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 
 </body>
+
 </html>
